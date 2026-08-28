@@ -1,0 +1,287 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// coverage:ignore-file
+// ignore_for_file: type=lint, type=warning, deprecated_member_use, deprecated_member_use_from_same_package
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
+
+part of 'app_failure.dart';
+
+// **************************************************************************
+// FreezedGenerator
+// **************************************************************************
+
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// dart format off
+T _$identity<T>(T value) => value;
+/// @nodoc
+mixin _$AppFailure {
+
+ AppFailureKind get kind; String? get code; String? get backendMessage; String? get requestId; int? get statusCode; int? get retryAfterSeconds;
+/// Create a copy of AppFailure
+/// with the given fields replaced by the non-null parameter values.
+@JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+$AppFailureCopyWith<AppFailure> get copyWith => _$AppFailureCopyWithImpl<AppFailure>(this as AppFailure, _$identity);
+
+
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is AppFailure&&(identical(other.kind, kind) || other.kind == kind)&&(identical(other.code, code) || other.code == code)&&(identical(other.backendMessage, backendMessage) || other.backendMessage == backendMessage)&&(identical(other.requestId, requestId) || other.requestId == requestId)&&(identical(other.statusCode, statusCode) || other.statusCode == statusCode)&&(identical(other.retryAfterSeconds, retryAfterSeconds) || other.retryAfterSeconds == retryAfterSeconds));
+}
+
+
+@override
+int get hashCode => Object.hash(runtimeType,kind,code,backendMessage,requestId,statusCode,retryAfterSeconds);
+
+@override
+String toString() {
+  return 'AppFailure(kind: $kind, code: $code, backendMessage: $backendMessage, requestId: $requestId, statusCode: $statusCode, retryAfterSeconds: $retryAfterSeconds)';
+}
+
+
+}
+
+/// @nodoc
+abstract mixin class $AppFailureCopyWith<$Res>  {
+  factory $AppFailureCopyWith(AppFailure value, $Res Function(AppFailure) _then) = _$AppFailureCopyWithImpl;
+@useResult
+$Res call({
+ AppFailureKind kind, String? code, String? backendMessage, String? requestId, int? statusCode, int? retryAfterSeconds
+});
+
+
+
+
+}
+/// @nodoc
+class _$AppFailureCopyWithImpl<$Res>
+    implements $AppFailureCopyWith<$Res> {
+  _$AppFailureCopyWithImpl(this._self, this._then);
+
+  final AppFailure _self;
+  final $Res Function(AppFailure) _then;
+
+/// Create a copy of AppFailure
+/// with the given fields replaced by the non-null parameter values.
+@pragma('vm:prefer-inline') @override $Res call({Object? kind = null,Object? code = freezed,Object? backendMessage = freezed,Object? requestId = freezed,Object? statusCode = freezed,Object? retryAfterSeconds = freezed,}) {
+  return _then(AppFailure(
+kind: null == kind ? _self.kind : kind // ignore: cast_nullable_to_non_nullable
+as AppFailureKind,code: freezed == code ? _self.code : code // ignore: cast_nullable_to_non_nullable
+as String?,backendMessage: freezed == backendMessage ? _self.backendMessage : backendMessage // ignore: cast_nullable_to_non_nullable
+as String?,requestId: freezed == requestId ? _self.requestId : requestId // ignore: cast_nullable_to_non_nullable
+as String?,statusCode: freezed == statusCode ? _self.statusCode : statusCode // ignore: cast_nullable_to_non_nullable
+as int?,retryAfterSeconds: freezed == retryAfterSeconds ? _self.retryAfterSeconds : retryAfterSeconds // ignore: cast_nullable_to_non_nullable
+as int?,
+  ));
+}
+
+}
+
+
+/// Adds pattern-matching-related methods to [AppFailure].
+extension AppFailurePatterns on AppFailure {
+/// A variant of `map` that fallback to returning `orElse`.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case _:
+///     return orElse();
+/// }
+/// ```
+
+@optionalTypeArgs TResult maybeMap<TResult extends Object?>(TResult Function( _AppFailure value)?  $default,{required TResult orElse(),}){
+final _that = this;
+switch (_that) {
+case _AppFailure() when $default != null:
+return $default(_that);case _:
+  return orElse();
+
+}
+}
+/// A `switch`-like method, using callbacks.
+///
+/// Callbacks receives the raw object, upcasted.
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case final Subclass2 value:
+///     return ...;
+/// }
+/// ```
+
+@optionalTypeArgs TResult map<TResult extends Object?>(TResult Function( _AppFailure value)  $default,){
+final _that = this;
+switch (_that) {
+case _AppFailure():
+return $default(_that);case _:
+  throw StateError('Unexpected subclass');
+
+}
+}
+/// A variant of `map` that fallback to returning `null`.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case final Subclass value:
+///     return ...;
+///   case _:
+///     return null;
+/// }
+/// ```
+
+@optionalTypeArgs TResult? mapOrNull<TResult extends Object?>(TResult? Function( _AppFailure value)?  $default,){
+final _that = this;
+switch (_that) {
+case _AppFailure() when $default != null:
+return $default(_that);case _:
+  return null;
+
+}
+}
+/// A variant of `when` that fallback to an `orElse` callback.
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case _:
+///     return orElse();
+/// }
+/// ```
+
+@optionalTypeArgs TResult maybeWhen<TResult extends Object?>(TResult Function( AppFailureKind kind,  String? code,  String? backendMessage,  String? requestId,  int? statusCode,  int? retryAfterSeconds)?  $default,{required TResult orElse(),}) {final _that = this;
+switch (_that) {
+case _AppFailure() when $default != null:
+return $default(_that.kind,_that.code,_that.backendMessage,_that.requestId,_that.statusCode,_that.retryAfterSeconds);case _:
+  return orElse();
+
+}
+}
+/// A `switch`-like method, using callbacks.
+///
+/// As opposed to `map`, this offers destructuring.
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case Subclass2(:final field2):
+///     return ...;
+/// }
+/// ```
+
+@optionalTypeArgs TResult when<TResult extends Object?>(TResult Function( AppFailureKind kind,  String? code,  String? backendMessage,  String? requestId,  int? statusCode,  int? retryAfterSeconds)  $default,) {final _that = this;
+switch (_that) {
+case _AppFailure():
+return $default(_that.kind,_that.code,_that.backendMessage,_that.requestId,_that.statusCode,_that.retryAfterSeconds);case _:
+  throw StateError('Unexpected subclass');
+
+}
+}
+/// A variant of `when` that fallback to returning `null`
+///
+/// It is equivalent to doing:
+/// ```dart
+/// switch (sealedClass) {
+///   case Subclass(:final field):
+///     return ...;
+///   case _:
+///     return null;
+/// }
+/// ```
+
+@optionalTypeArgs TResult? whenOrNull<TResult extends Object?>(TResult? Function( AppFailureKind kind,  String? code,  String? backendMessage,  String? requestId,  int? statusCode,  int? retryAfterSeconds)?  $default,) {final _that = this;
+switch (_that) {
+case _AppFailure() when $default != null:
+return $default(_that.kind,_that.code,_that.backendMessage,_that.requestId,_that.statusCode,_that.retryAfterSeconds);case _:
+  return null;
+
+}
+}
+
+}
+
+/// @nodoc
+
+
+class _AppFailure implements AppFailure {
+  const _AppFailure({required this.kind, this.code, this.backendMessage, this.requestId, this.statusCode, this.retryAfterSeconds});
+  
+
+@override final  AppFailureKind kind;
+@override final  String? code;
+@override final  String? backendMessage;
+@override final  String? requestId;
+@override final  int? statusCode;
+@override final  int? retryAfterSeconds;
+
+/// Create a copy of AppFailure
+/// with the given fields replaced by the non-null parameter values.
+@override @JsonKey(includeFromJson: false, includeToJson: false)
+@pragma('vm:prefer-inline')
+_$AppFailureCopyWith<_AppFailure> get copyWith => __$AppFailureCopyWithImpl<_AppFailure>(this, _$identity);
+
+
+
+@override
+bool operator ==(Object other) {
+  return identical(this, other) || (other.runtimeType == runtimeType&&other is _AppFailure&&(identical(other.kind, kind) || other.kind == kind)&&(identical(other.code, code) || other.code == code)&&(identical(other.backendMessage, backendMessage) || other.backendMessage == backendMessage)&&(identical(other.requestId, requestId) || other.requestId == requestId)&&(identical(other.statusCode, statusCode) || other.statusCode == statusCode)&&(identical(other.retryAfterSeconds, retryAfterSeconds) || other.retryAfterSeconds == retryAfterSeconds));
+}
+
+
+@override
+int get hashCode => Object.hash(runtimeType,kind,code,backendMessage,requestId,statusCode,retryAfterSeconds);
+
+@override
+String toString() {
+  return 'AppFailure(kind: $kind, code: $code, backendMessage: $backendMessage, requestId: $requestId, statusCode: $statusCode, retryAfterSeconds: $retryAfterSeconds)';
+}
+
+
+}
+
+/// @nodoc
+abstract mixin class _$AppFailureCopyWith<$Res> implements $AppFailureCopyWith<$Res> {
+  factory _$AppFailureCopyWith(_AppFailure value, $Res Function(_AppFailure) _then) = __$AppFailureCopyWithImpl;
+@override @useResult
+$Res call({
+ AppFailureKind kind, String? code, String? backendMessage, String? requestId, int? statusCode, int? retryAfterSeconds
+});
+
+
+
+
+}
+/// @nodoc
+class __$AppFailureCopyWithImpl<$Res>
+    implements _$AppFailureCopyWith<$Res> {
+  __$AppFailureCopyWithImpl(this._self, this._then);
+
+  final _AppFailure _self;
+  final $Res Function(_AppFailure) _then;
+
+/// Create a copy of AppFailure
+/// with the given fields replaced by the non-null parameter values.
+@override @pragma('vm:prefer-inline') $Res call({Object? kind = null,Object? code = freezed,Object? backendMessage = freezed,Object? requestId = freezed,Object? statusCode = freezed,Object? retryAfterSeconds = freezed,}) {
+  return _then(_AppFailure(
+kind: null == kind ? _self.kind : kind // ignore: cast_nullable_to_non_nullable
+as AppFailureKind,code: freezed == code ? _self.code : code // ignore: cast_nullable_to_non_nullable
+as String?,backendMessage: freezed == backendMessage ? _self.backendMessage : backendMessage // ignore: cast_nullable_to_non_nullable
+as String?,requestId: freezed == requestId ? _self.requestId : requestId // ignore: cast_nullable_to_non_nullable
+as String?,statusCode: freezed == statusCode ? _self.statusCode : statusCode // ignore: cast_nullable_to_non_nullable
+as int?,retryAfterSeconds: freezed == retryAfterSeconds ? _self.retryAfterSeconds : retryAfterSeconds // ignore: cast_nullable_to_non_nullable
+as int?,
+  ));
+}
+
+
+}
+
+// dart format on

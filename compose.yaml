@@ -1,0 +1,15 @@
+services:
+  web:
+    image: webhook-delivery-platform-client:local
+    build:
+      context: .
+      args:
+        API_BASE_URL: ${API_BASE_URL:-http://localhost:8000}
+    ports:
+      - "${WEB_PORT:-8080}:8080"
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped

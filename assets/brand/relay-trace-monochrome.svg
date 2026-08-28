@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-labelledby="title desc">
+  <title id="title">Relay Trace monochrome</title>
+  <desc id="desc">Single-color Relay Trace mark for themed icons and constrained reproduction.</desc>
+  <g transform="translate(22 22)">
+    <rect x="7" y="27" width="8" height="10" fill="currentColor"/>
+    <path d="M15 32H25L34 23H43L51 31" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="butt" stroke-linejoin="bevel"/>
+    <path d="M25 41H40L49 32H54" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="butt" stroke-linejoin="bevel"/>
+    <path d="M51 28H55V36H51Z" fill="currentColor"/>
+    <path d="M55 22H61V42H55Z" fill="currentColor"/>
+  </g>
+</svg>

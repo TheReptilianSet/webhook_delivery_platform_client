@@ -1,0 +1,14 @@
+.dart_tool
+.git
+.github
+.idea
+.vscode
+.edge-*
+build
+coverage
+docs
+relay-ui-*.png
+*.iml
+*.log
+Dockerfile*
+README.md

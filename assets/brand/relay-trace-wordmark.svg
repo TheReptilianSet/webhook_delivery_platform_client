@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 64" role="img" aria-labelledby="title desc">
+  <title id="title">Relay Console</title>
+  <desc id="desc">Relay Trace mark followed by the Relay Console product name.</desc>
+  <rect width="64" height="64" fill="#171B1F"/>
+  <rect x="7" y="27" width="8" height="10" fill="#3F6EF5"/>
+  <path d="M15 32H25L34 23H43L51 31" fill="none" stroke="#3F6EF5" stroke-width="5" stroke-linecap="butt" stroke-linejoin="bevel"/>
+  <path d="M25 41H40L49 32H54" fill="none" stroke="#E3A325" stroke-width="4" stroke-linecap="butt" stroke-linejoin="bevel"/>
+  <path d="M51 28H55V36H51Z" fill="#19A58C"/>
+  <path d="M55 22H61V42H55Z" fill="#19A58C"/>
+  <g fill="none" stroke="#171B1F" stroke-width="5" stroke-linecap="butt" stroke-linejoin="bevel">
+    <path d="M84 40V16H98V27H84M94 27L102 40"/>
+    <path d="M108 16V40M108 16H124M108 28H121M108 40H124"/>
+    <path d="M131 16V40H146"/>
+    <path d="M151 40L160 16L169 40M155 31H166"/>
+    <path d="M174 16L182 28L190 16M182 28V40"/>
+  </g>
+  <g fill="none" stroke="#626B68" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M90 47H83V56H90"/>
+    <path d="M96 47H103V56H96Z"/>
+    <path d="M109 56V47L117 56V47"/>
+    <path d="M130 47H123V51.5H130V56H123"/>
+    <path d="M136 47H143V56H136Z"/>
+    <path d="M149 47V56H156"/>
+    <path d="M169 47H162V56H169M162 51.5H168"/>
+  </g>
+</svg>
