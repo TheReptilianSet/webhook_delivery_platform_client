@@ -130,10 +130,11 @@ For an Android emulator, use
 checks that generated files are committed, verifies formatting, analyzes,
 tests, builds the web artifact, and builds the Docker image.
 
-Before merging or tagging a release, create an Actions repository variable
-named `API_BASE_URL` with the production backend URL. Pushes to `main` and tags
-matching `v*` publish to `ghcr.io/<owner>/<repository>`. Pull requests build
-the same Dockerfile without publishing it.
+To publish an image, create an Actions repository variable named `API_BASE_URL`
+with the production backend URL. Pushes to `main` and tags matching `v*` publish
+to `ghcr.io/<owner>/<repository>` when that variable is configured. Without it,
+CI still validates the Docker build and reports that publication was skipped.
+Pull requests always build without publishing.
 
 ## Verify
 
