@@ -49,7 +49,7 @@ RUN --mount=type=cache,id=webhook-client-pub-v2,target=/root/.pub-cache,sharing=
     && flutter build web --release \
         --dart-define="API_BASE_URL=${API_BASE_URL}"
 
-FROM nginx:1.28.3-alpine@sha256:a8b39bd9cf0f83869a2162827a0caf6137ddf759d50a171451b335cecc87d236 AS runtime
+FROM nginx:1.31.4-alpine@sha256:db35bfc6b2951e7f8a72db5db120288c127ffaeeb4a6d4b95a26fead017d5913 AS runtime
 
 COPY docker/nginx.conf /etc/nginx/nginx.conf
 COPY --from=build /workspace/build/web /usr/share/nginx/html
